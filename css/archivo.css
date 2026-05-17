@@ -1,0 +1,75 @@
+#contenedor{
+		width: 100%;
+		max-width: 980px;
+		height: 100%;
+		padding: 2%;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+body {
+background-image: url('../img/fondo.png');
+margin: 0;
+padding: 0;
+text-align: center;
+font-family: "Arvo", serif;
+font-weight: 300;
+font-style: normal;
+}
+
+main{
+	background-color: antiquewhite;
+	margin: 1%;
+	padding: 1%;
+}
+header, footer{
+    background-color: rgb(75, 75, 148);
+    padding: 2%;
+    text-align: center;
+	color: black;
+}
+nav{
+        background-color: rgb(82, 82, 159);
+}
+nav ul{
+    margin: 1rem;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+nav a {
+	font-size: 1.4rem;
+	line-height: 2.8rem;
+	padding: 0.4rem  1rem;
+	text-align: center;
+	text-decoration: none;
+}
+nav a:link {
+	background-color: black;
+	color: whitesmoke
+}
+nav a:visited {
+	background-color: black;
+	color: whitesmoke;
+}
+nav a:hover {
+	background-color: blue;
+	color: whitesmoke;
+
+}
+nav a:active {
+	background-color: whitesmoke;
+	color: black;
+}
+h1,h2{
+	color: rgb(1, 65, 44);
+}
+
+header h1{ color: black;}
+
+article ul{ 
+	list-style-type: none;
+}
